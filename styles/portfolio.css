@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* common primary color */
+.text-primary {
+    color: #FD6E0A;
+
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    height: 64px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    padding: 18px 35px;
+}
+
+/* header and navigation styles */
+.header {
+    background: #FFF8F3;
+    background-image: url("../images/header_bg.png") , url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right , bottom left;
+    
+    ;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 60px;
+    /* margin: 50px 200px; */
+    /* margin-top: 40px; */
+   
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+/* banner margin  */
+.banner {
+    display: flex;
+    align-self: center;
+    padding: 0px 200px;
+
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 85px;
+    color: #181818;
+}
+
+.banner-sub-title {
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    color: #757575;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* main section */
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.about {
+    margin-top: 100px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 80px 100px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400px;
+}
+
+.section-title {
+
+    margin-bottom: 30px;
+}
+
+.section-description {
+    font-size: 18px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #757575;
+
+}
+
+.info{
+    display: flex;
+    gap: 60px;
+    padding-left: 50px;
+
+}
+.info-child{
+    /* padding-left: 60px; */
+}
+.info-title{
+    color: #757575;
+
+}
+.info-description{
+    color: #222020;
+}
